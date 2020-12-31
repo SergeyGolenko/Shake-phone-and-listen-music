@@ -10,33 +10,48 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
-
-
+    var mymp3 = ["Izzamuzzic1","Izzamuzzic2","Izzamuzzic3","Izzamuzzic4","Izzamuzzic5"]
+    var player = AVAudioPlayer()
+    
+    
+    
     @IBOutlet weak var shakeLabel: UILabel!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     //configureGradient()
+ 
         
     }
     
-    
-    func configureGradient(){
-        let gradient = CAGradientLayer()
-        gradient.colors = [UIColor.purple.cgColor,UIColor.blue.cgColor]
-        gradient.locations = [0,2]
-        view.layer.addSublayer(gradient)
-        gradient.frame = view.frame
-    }
-
+ 
     
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         shakeLabel.isHidden = true
+        playMusic()
         print("shake")
     }
+    
+    
+    func playMusic(){
+        
+        guard let path = Bundle.main.path(forResource: mymp3[0], ofType: "mp3") else {return}
+                    print(path)
+                    let url = URL(fileURLWithPath: path)
+                    
+                    do {
+                        player = try AVAudioPlayer(contentsOf:url)
+                        player.play()
+                    } catch let error{
+                        print("error")
+                    }
+                }
+        
+    
+    
+    
 
 }
 

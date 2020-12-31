@@ -13,6 +13,11 @@
 		2CB4E3A4259DE03D0033DACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3A2259DE03D0033DACC /* Main.storyboard */; };
 		2CB4E3A6259DE04E0033DACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3A5259DE04E0033DACC /* Assets.xcassets */; };
 		2CB4E3A9259DE04E0033DACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3A7259DE04E0033DACC /* LaunchScreen.storyboard */; };
+		2CB4E3BA259DEE690033DACC /* Izzamuzzic3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3B5259DEE660033DACC /* Izzamuzzic3.mp3 */; };
+		2CB4E3BB259DEE690033DACC /* Izzamuzzic4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3B6259DEE670033DACC /* Izzamuzzic4.mp3 */; };
+		2CB4E3BC259DEE690033DACC /* Izzamuzzic2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3B7259DEE680033DACC /* Izzamuzzic2.mp3 */; };
+		2CB4E3BD259DEE690033DACC /* Izzamuzzic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3B8259DEE680033DACC /* Izzamuzzic1.mp3 */; };
+		2CB4E3BE259DEE690033DACC /* Izzamuzzic5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4E3B9259DEE690033DACC /* Izzamuzzic5.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		2CB4E3A5259DE04E0033DACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB4E3A8259DE04E0033DACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB4E3AA259DE04E0033DACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB4E3B5259DEE660033DACC /* Izzamuzzic3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Izzamuzzic3.mp3; sourceTree = "<group>"; };
+		2CB4E3B6259DEE670033DACC /* Izzamuzzic4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Izzamuzzic4.mp3; sourceTree = "<group>"; };
+		2CB4E3B7259DEE680033DACC /* Izzamuzzic2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Izzamuzzic2.mp3; sourceTree = "<group>"; };
+		2CB4E3B8259DEE680033DACC /* Izzamuzzic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Izzamuzzic1.mp3; sourceTree = "<group>"; };
+		2CB4E3B9259DEE690033DACC /* Izzamuzzic5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Izzamuzzic5.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				2CB4E39E259DE03D0033DACC /* SceneDelegate.swift */,
 				2CB4E3A0259DE03D0033DACC /* ViewController.swift */,
 				2CB4E3A2259DE03D0033DACC /* Main.storyboard */,
+				2CB4E3B8259DEE680033DACC /* Izzamuzzic1.mp3 */,
+				2CB4E3B7259DEE680033DACC /* Izzamuzzic2.mp3 */,
+				2CB4E3B5259DEE660033DACC /* Izzamuzzic3.mp3 */,
+				2CB4E3B6259DEE670033DACC /* Izzamuzzic4.mp3 */,
+				2CB4E3B9259DEE690033DACC /* Izzamuzzic5.mp3 */,
 				2CB4E3A5259DE04E0033DACC /* Assets.xcassets */,
 				2CB4E3A7259DE04E0033DACC /* LaunchScreen.storyboard */,
 				2CB4E3AA259DE04E0033DACC /* Info.plist */,
@@ -124,8 +139,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB4E3BA259DEE690033DACC /* Izzamuzzic3.mp3 in Resources */,
+				2CB4E3BB259DEE690033DACC /* Izzamuzzic4.mp3 in Resources */,
+				2CB4E3BE259DEE690033DACC /* Izzamuzzic5.mp3 in Resources */,
 				2CB4E3A9259DE04E0033DACC /* LaunchScreen.storyboard in Resources */,
+				2CB4E3BC259DEE690033DACC /* Izzamuzzic2.mp3 in Resources */,
 				2CB4E3A6259DE04E0033DACC /* Assets.xcassets in Resources */,
+				2CB4E3BD259DEE690033DACC /* Izzamuzzic1.mp3 in Resources */,
 				2CB4E3A4259DE03D0033DACC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
